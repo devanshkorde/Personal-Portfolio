@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Devansh Korde | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=Crimson+Pro:ital,wght@1,300&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  </head>
+  <body>
+
+    <!-- CUSTOM CURSOR -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"></div>
+
+    <!-- PARTICLE CANVAS -->
+    <canvas id="particles"></canvas>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-logo">DK<span>.</span></div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-socials">
+        <a href="https://github.com/devanshkorde" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/devansh-korde-6a6846333/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </nav>
+
+    <!-- ========== HERO ========== -->
+<section class="hero" id="home">
+  <div class="hero-content">
+
+    <div class="hero-image">
+  <svg class="sketch-frame" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Outer wobbly hand-drawn circle -->
+    <path class="sketch-outer" d="
+      M 200 48
+      C 260 42, 330 70, 355 130
+      C 378 185, 372 260, 340 310
+      C 308 360, 248 385, 192 382
+      C 136 379, 75 352, 48 300
+      C 20 248, 22 172, 52 120
+      C 82 68, 140 54, 200 48 Z
+    "/>
+    <!-- Inner slightly offset wobbly circle -->
+    <path class="sketch-inner" d="
+      M 200 58
+      C 255 50, 322 78, 346 136
+      C 368 190, 360 262, 328 310
+      C 297 356, 240 378, 186 376
+      C 132 373, 74 344, 50 294
+      C 26 244, 30 170, 60 120
+      C 88 72, 145 66, 200 58 Z
+    "/>
+    <!-- Small gap stroke at bottom for that unfinished sketch look -->
+    <path class="sketch-gap" d="
+      M 148 378
+      C 162 384, 178 386, 194 385
+    "/>
+  </svg>
+  <img src="assets/images/FormalPhoto.png" alt="Devansh Korde" />
+  <div class="hero-image-glow"></div>
+</div>
+
+    <div class="hero-text">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">
+        <span class="name-line">Devansh</span>
+        <span class="name-line">Korde</span>
+      </h1>
+      <p class="hero-tagline"><span id="typed-text"></span><span class="cursor-blink">|</span></p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="hero-scroll-hint">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+    <!-- ========== ABOUT ========== -->
+    <section class="about" id="about">
+      <div class="section-inner">
+        <div class="section-label">01 / About</div>
+        <h2 class="section-title">Who I Am</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>I'm a B.Tech IT student passionate about building meaningful digital solutions. I enjoy turning complex problems into simple, logical outcomes through code.</p>
+            <p>I have a growing interest in cloud computing and modern technologies. Alongside development, I explore creativity through photography and filmmaking.</p>
+            <p>I believe in blending technology with storytelling to create impactful experiences. Constantly learning, constantly building.</p>
+            <div class="about-tags">
+              <span>B.Tech IT — Medicaps University</span>
+              <span>Indore, India</span>
+              <span>Open to Opportunities</span>
+            </div>
+          </div>
+          <div class="about-visual">
+            <div class="about-card">
+              <div class="about-card-inner">
+                <div class="about-stat"><span class="stat-num">01+</span><span class="stat-label">Years Coding</span></div>
+                <div class="about-stat"><span class="stat-num">05+</span><span class="stat-label">Projects Built</span></div>
+                <div class="about-stat"><span class="stat-num">∞</span><span class="stat-label">Curiosity</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SKILLS ========== -->
+    <section class="skills" id="skills">
+      <div class="section-inner">
+        <div class="section-label">02 / Skills</div>
+        <h2 class="section-title">What I Work With</h2>
+        <div class="skills-categories">
+
+          <div class="skill-group">
+            <h3 class="skill-group-title">Development</h3>
+            <div class="skills-grid">
+              <div class="skill-pill"><i class="fab fa-html5"></i> HTML</div>
+              <div class="skill-pill"><i class="fab fa-css3-alt"></i> CSS</div>
+              <div class="skill-pill"><i class="fab fa-js"></i> JavaScript</div>
+              <div class="skill-pill"><i class="fab fa-python"></i> Python</div>
+              <div class="skill-pill"><i class="fab fa-java"></i> Java</div>
+              <div class="skill-pill"><i class="fas fa-database"></i> SQL</div>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h3 class="skill-group-title">Creative Tools</h3>
+            <div class="skills-grid">
+              <div class="skill-pill"><i class="fas fa-camera"></i> Photography</div>
+              <div class="skill-pill"><i class="fas fa-film"></i> Filmmaking</div>
+              <div class="skill-pill"><i class="fas fa-wand-magic-sparkles"></i> Photoshop</div>
+              <div class="skill-pill"><i class="fas fa-scissors"></i> CapCut</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS ========== -->
+<section class="projects" id="projects">
+  <div class="section-inner">
+    <div class="section-label">03 / Projects</div>
+    <h2 class="section-title">Things I've Built</h2>
+    <div class="projects-grid">
+
+      <!-- PROJECT 01 — EzGrind -->
+      <div class="project-card featured">
+        <div class="project-number">01</div>
+        <div class="project-body">
+          <h3 class="project-title">EzGrind</h3>
+          <p class="project-desc">A full-stack fitness tracking web application designed to help users log and manage their workouts in a structured and efficient way. Supports workout sets including weight, reps, and time under tension with session-based authentication and a clean dashboard.</p>
+          <div class="project-stack">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python Flask</span><span>MySQL</span>
+          </div>
+          <div class="project-links">
+            <a href="https://ezgrind.netlify.app/" target="_blank" class="project-link">
+              <i class="fas fa-arrow-up-right-from-square"></i> Live Demo
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT 02 — Personal Portfolio -->
+      <div class="project-card">
+        <div class="project-number">02</div>
+        <div class="project-body">
+          <h3 class="project-title">Personal Portfolio</h3>
+          <p class="project-desc">A responsive and visually engaging personal portfolio website built with HTML, CSS, and JavaScript. Features a custom cursor, particle background, and smooth animations to showcase my skills, projects, and contact information in a modern design.</p>
+          <div class="project-stack">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank" class="project-link">
+              <i class="fas fa-arrow-up-right-from-square"></i> View Code
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT 03 — Code Escape Room -->
+      <div class="project-card">
+        <div class="project-number">03</div>
+        <div class="project-body">
+          <h3 class="project-title">Code Escape Room</h3>
+          <p class="project-desc">A gamified web escape room that integrates NVIDIA NIM to adapt puzzle difficulty based on user performance, improving average completion rates by 12%. Features RESTful API endpoints, secure session management, token handling for multi-role user access, and data-driven adaptive systems built on user behaviour analytics.</p>
+          <div class="project-stack">
+            <span>Python</span><span>Flask</span><span>MySQL</span><span>HTML/CSS/JS</span><span>NVIDIA NIM API</span><span>Git</span>
+          </div>
+          <div class="project-links">
+            <a href="https://sofdev007.pythonanywhere.com/login.html" target="_blank" class="project-link">
+              <i class="fas fa-arrow-up-right-from-square"></i> Live Demo
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="contact" id="contact">
+      <div class="section-inner">
+        <div class="section-label">04 / Contact</div>
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="contact-sub">Have a project in mind, want to collaborate, or just want to say hi? My inbox is always open.</p>
+        <a href="mailto:devanshkorde195@gmail.com" class="btn btn-primary contact-btn">Say Hello <i class="fas fa-paper-plane"></i></a>
+        <div class="social-links">
+          <a href="https://github.com/devanshkorde" target="_blank" class="social-link">
+            <i class="fab fa-github"></i><span>GitHub</span>
+          </a>
+          <a href="https://www.linkedin.com/in/devansh-korde-6a6846333/" target="_blank" class="social-link">
+            <i class="fab fa-linkedin"></i><span>LinkedIn</span>
+          </a>
+          <a href="https://www.instagram.com/devansh_korde/" target="_blank" class="social-link">
+            <i class="fab fa-instagram"></i><span>Instagram</span>
+          </a>
+          <a href="mailto:devanshkorde195@gmail.com" class="social-link">
+            <i class="fas fa-envelope"></i><span>Email</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+      <p>Designed & Built by <span>Devansh Korde</span> © 2025</p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
