@@ -17,7 +17,7 @@
 <br/>
 
 <a href="https://devanshkordeportfolio.netlify.app/">
-  <img src="assets/preview.gif" alt="Devansh Korde — portfolio preview" width="90%"/>
+  <img src="Portfolio/assets/preview.gif" alt="Devansh Korde — portfolio preview" width="90%"/>
 </a>
 
 <br/>
