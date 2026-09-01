@@ -16,7 +16,7 @@
 
 <br/>
 
-<img src="assets/preview.gif" alt="Devansh Korde — portfolio preview" width="90%"/>
+<img src="portfolio/assets/preview.gif" alt="Devansh Korde — portfolio preview" width="90%"/>
 
 <br/>
 <br/>
