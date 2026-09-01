@@ -16,12 +16,8 @@
 
 <br/>
 
-<a href="https://devanshkordeportfolio.netlify.app/">
-  <img src="assets/preview.gif" alt="Devansh Korde — portfolio preview" width="90%"/>
-</a>
+<img src="assets/preview.gif" alt="Devansh Korde — portfolio preview" width="90%"/>
 
-<br/>
-<sub>☝️ Click the preview to open the live site</sub>
 <br/>
 <br/>
 
